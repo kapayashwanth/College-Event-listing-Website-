@@ -14,7 +14,7 @@ The College Event Listing Website is a digital platform designed to centralize e
 - JavaScript – Enables interactivity and user engagement.
 
 🔧 Setup Instructions
-- Clone the Repository:git clone https://github.com/your-username/college-event-listing.git
+- Clone the Repository:https://github.com/kapayashwanth/College-Event-listing-Website-.git
 
 - Navigate to the Project Directory:cd college-event-listing
 
@@ -38,6 +38,6 @@ The College Event Listing Website is a digital platform designed to centralize e
 - Uiverse.io – Open-source UI components.
 
 🔗 GitHub Repository
-(Provide your actual GitHub repository link here.)
+https://github.com/kapayashwanth/College-Event-listing-Website-.git
 
 You can copy and paste this into your README.md file. Let me know if you need any modifications! 🚀
