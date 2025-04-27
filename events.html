@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Amritostav 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <!-- Site Logo and Title -->
+    <div style="display: flex; align-items: center; justify-content: center; padding-top: 20px;">
+        <img src="https://webfiles.amrita.edu/2024/04/ZvmNQEuB-amrita-vishwa-vidyapeetham-university-logo-white-version.svg" alt="Site Logo" style="height: 60px; margin-right: 16px;">
+        <h1 style="font-size: 2rem; color: var(--text-color); margin: 0;">Amritostav 2025</h1>
+    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://webfiles.amrita.edu/2024/04/ZvmNQEuB-amrita-vishwa-vidyapeetham-university-logo-white-version.svg" alt="Amrita Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html" class="active">Events</a>
+            <a href="past-events.html">Past Events</a>
+            <a href="registration.html">Registration</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="events-section">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="event-filters">
+            <button class="filter-btn active" data-filter="all">All Events</button>
+            <button class="filter-btn" data-filter="academic">Academic</button>
+            <button class="filter-btn" data-filter="cultural">Cultural</button>
+            <button class="filter-btn" data-filter="workshops">Workshops</button>
+            <button class="filter-btn" data-filter="fun">Fun & Games</button>
+        </div>
+        <div class="events-grid">
+            <!-- Academic Events -->
+            <div class="event-card" data-category="academic">
+                <div class="event-image">
+                    <img src="images/tech-symposium.jpg" alt="Tech Symposium">
+                </div>
+                <div class="event-details">
+                    <h3>Tech Symposium</h3>
+                    <p class="event-date">May 2, 2025</p>
+                    <p class="event-desc">Annual technical symposium showcasing innovative projects and research.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="academic">
+                <div class="event-image">
+                    <img src="images/coding-competition.jpg" alt="Coding Competition">
+                </div>
+                <div class="event-details">
+                    <h3>Coding Competition</h3>
+                    <p class="event-date">May 2, 2025</p>
+                    <p class="event-desc">Test your programming skills in this intense coding challenge.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="academic">
+                <div class="event-image">
+                    <img src="images/paper-presentation.jpg" alt="Paper Presentation">
+                </div>
+                <div class="event-details">
+                    <h3>Paper Presentation</h3>
+                    <p class="event-date">May 2, 2025</p>
+                    <p class="event-desc">Present your research papers to industry experts.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+
+            <!-- Cultural Events -->
+            <div class="event-card" data-category="cultural">
+                <div class="event-image">
+                    <img src="images/dance-competition.jpg" alt="Dance Competition">
+                </div>
+                <div class="event-details">
+                    <h3>Dance Competition</h3>
+                    <p class="event-date">May 3, 2025</p>
+                    <p class="event-desc">Showcase your dance skills in various categories.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="cultural">
+                <div class="event-image">
+                    <img src="images/music-festival.jpg" alt="Music Festival">
+                </div>
+                <div class="event-details">
+                    <h3>Music Festival</h3>
+                    <p class="event-date">May 3, 2025</p>
+                    <p class="event-desc">Live performances by talented musicians.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="cultural">
+                <div class="event-image">
+                    <img src="images/drama-competition.jpg" alt="Drama Competition">
+                </div>
+                <div class="event-details">
+                    <h3>Drama Competition</h3>
+                    <p class="event-date">May 3, 2025</p>
+                    <p class="event-desc">Showcase your acting skills in various themes.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+
+            <!-- Workshops -->
+            <div class="event-card" data-category="workshops">
+                <div class="event-image">
+                    <img src="images/ai-workshop.jpg" alt="AI Workshop">
+                </div>
+                <div class="event-details">
+                    <h3>AI Workshop</h3>
+                    <p class="event-date">May 4, 2025</p>
+                    <p class="event-desc">Learn about artificial intelligence and machine learning.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="workshops">
+                <div class="event-image">
+                    <img src="images/web-dev.jpg" alt="Web Development">
+                </div>
+                <div class="event-details">
+                    <h3>Web Development</h3>
+                    <p class="event-date">May 4, 2025</p>
+                    <p class="event-desc">Master modern web development techniques.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="workshops">
+                <div class="event-image">
+                    <img src="images/cybersecurity.jpg" alt="Cybersecurity">
+                </div>
+                <div class="event-details">
+                    <h3>Cybersecurity</h3>
+                    <p class="event-date">May 4, 2025</p>
+                    <p class="event-desc">Learn about cybersecurity and ethical hacking.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+
+            <!-- Fun & Games -->
+            <div class="event-card" data-category="fun">
+                <div class="event-image">
+                    <img src="images/treasure-hunt.jpg" alt="Treasure Hunt">
+                </div>
+                <div class="event-details">
+                    <h3>Treasure Hunt</h3>
+                    <p class="event-date">May 5, 2025</p>
+                    <p class="event-desc">Solve puzzles and find hidden treasures.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="fun">
+                <div class="event-image">
+                    <img src="images/gaming-tournament.jpg" alt="Gaming Tournament">
+                </div>
+                <div class="event-details">
+                    <h3>Gaming Tournament</h3>
+                    <p class="event-date">May 5, 2025</p>
+                    <p class="event-desc">Compete in various gaming competitions.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+            <div class="event-card" data-category="fun">
+                <div class="event-image">
+                    <img src="images/sports.jpg" alt="Sports Events">
+                </div>
+                <div class="event-details">
+                    <h3>Sports Events</h3>
+                    <p class="event-date">May 5, 2025</p>
+                    <p class="event-desc">Participate in various sports competitions.</p>
+                    <a href="registration.html" class="event-btn">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodation Section -->
+    <section class="accommodation-section">
+        <h2 class="section-title">Accommodation</h2>
+        <div class="accommodation-content">
+            <div class="accommodation-grid">
+                <div class="accommodation-card">
+                    <h3>On-Campus Hostels</h3>
+                    <ul>
+                        <li>Separate hostels for boys and girls</li>
+                        <li>24/7 security and surveillance</li>
+                        <li>Wi-Fi connectivity</li>
+                        <li>Common rooms with TV</li>
+                        <li>Laundry facilities</li>
+                        <li>Mess facilities available</li>
+                    </ul>
+                    <p class="price">₹500 per day (including meals)</p>
+                </div>
+                <div class="accommodation-card">
+                    <h3>Nearby Hotels</h3>
+                    <ul>
+                        <li>Hotel Grand Palace (1.5 km)</li>
+                        <li>Hotel Sea View (2 km)</li>
+                        <li>Hotel Ocean Breeze (2.5 km)</li>
+                        <li>Hotel Palm Grove (3 km)</li>
+                    </ul>
+                    <p class="price">Starting from ₹1500 per day</p>
+                </div>
+                <div class="accommodation-card">
+                    <h3>Transportation</h3>
+                    <ul>
+                        <li>Shuttle service from hotels to campus</li>
+                        <li>Local bus service available</li>
+                        <li>Auto-rickshaws and taxis</li>
+                        <li>24/7 emergency transport</li>
+                    </ul>
+                    <p class="price">Shuttle service: ₹50 per trip</p>
+                </div>
+            </div>
+            <div class="accommodation-note">
+                <p><strong>Note:</strong> Accommodation booking is mandatory for outstation participants. Please book your accommodation during registration.</p>
+                <a href="registration.html" class="cta-button">Book Accommodation</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+                <a href="past-events.html">Past Events</a>
+                <a href="registration.html">Registration</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> Email: culturals@amrita.edu</p>
+                <p><i class="fas fa-phone"></i> Phone: +91 1234567890</p>
+                <p><i class="fas fa-map-marker-alt"></i> Address: Amrita Vishwa Vidyapeetham, Nagercoil Campus, Nagercoil, Tamil Nadu - 629003</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter for updates</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Amritostav. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="sitemap.html">Sitemap</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Amritostav 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <!-- Site Logo and Title -->
+    <div style="display: flex; align-items: center; justify-content: center; padding-top: 20px;">
+        <img src="https://webfiles.amrita.edu/2024/04/ZvmNQEuB-amrita-vishwa-vidyapeetham-university-logo-white-version.svg" alt="Site Logo" style="height: 60px; margin-right: 16px;">
+        <h1 style="font-size: 2rem; color: var(--text-color); margin: 0;">Amritostav 2025</h1>
+    </div>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://webfiles.amrita.edu/2024/04/ZvmNQEuB-amrita-vishwa-vidyapeetham-university-logo-white-version.svg" alt="Amrita Logo">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="events.html">Events</a>
+            <a href="past-events.html">Past Events</a>
+            <a href="registration.html" class="active">Registration</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="registration-section">
+        <div class="registration-container">
+            <h2 class="section-title">Event Registration</h2>
+            <form id="registrationForm" class="registration-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="college">College Name</label>
+                    <input type="text" id="college" name="college" required>
+                    <span class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <label for="event">Select Event</label>
+                    <select id="event" name="event" required>
+                        <option value="">Choose an event</option>
+                        <option value="tech-symposium">Tech Symposium</option>
+                        <option value="dance-competition">Dance Competition</option>
+                        <option value="music-fest">Music Festival</option>
+                        <option value="art-exhibition">Art Exhibition</option>
+                        <option value="workshop">Workshop</option>
+                    </select>
+                    <span class="error-message"></span>
+                </div>
+                <button type="submit" class="submit-btn">Register Now</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="events.html">Events</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: culturals@amrita.edu</p>
+                <p>Phone: +91 XXXXXXXXXX</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Amritostav. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
